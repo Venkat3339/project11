@@ -1,0 +1,5 @@
+<input type="text" #myinput>
+<button (click)="onclick(myinput.value)">submit</button>
+{{myinput.value}}
+<input type="text" [(ngModel)]="Name">
+{{Name}}
